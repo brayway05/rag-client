@@ -53,16 +53,6 @@ function App() {
               >
                 Brayden
               </button>
-              <button
-                onClick={() => setCurrentUser("Riley")}
-                className={`px-2 py-1 text-sm rounded-full ${
-                  currentUser === "Riley"
-                    ? "bg-blue-500 text-white"
-                    : "bg-gray-600 text-gray-300"
-                }`}
-              >
-                Riley
-              </button>
             </div>
           </div>
         </div>
@@ -113,7 +103,7 @@ function App() {
 
           {/* Creator Text */}
           <p className="text-gray-400 text-center mb-4">
-            Created by Brayden Christensen and Riley Sinema
+            Created by Brayden Christensen
           </p>
         </div>
       </div>

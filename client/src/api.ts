@@ -19,17 +19,4 @@ export const triggerRAG = async (input: any, person: string, conversationId: str
     }
 };
 
-export const getBotResponse = async (input: any) => {
-    try {
-        const response = await api.get('/model-inference', {
-            params: { user_input: input }
-        });
-        console.log('response:', response);
-        return response.data;
-    } catch (error) {
-        console.error('Error getting bot response:', error);
-        throw error;
-    }
-};
-
 export default api;
