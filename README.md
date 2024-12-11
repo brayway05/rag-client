@@ -27,4 +27,4 @@ Commands to develop locally:
 
 ## Document Embeddings
 
-To add personal information that the model will use for augmented output, add a .txt file in database/documents and run the embed_insert.py script (See the README.md in the database directory).
+To add personal information that the model will use for augmented output, add a .txt file in database/documents and run the embed_insert.py script. See the [README](https://github.com/brayway05/rag-project/blob/main/database/README.md) in the database directory.
