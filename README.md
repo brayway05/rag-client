@@ -23,3 +23,8 @@ Commands to develop locally:
 ## Docker Compose for Full Stack Dev
 
 `docker compose up --build`
+
+
+## Document Embeddings
+
+To add personal information that the model will use for augmented output, add a .txt file in database/documents and run the embed_insert.py script (See the README.md in the database directory).
